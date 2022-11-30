@@ -13,7 +13,7 @@
     text-align: center;
 }
 
-input {
+#name,#email,#number,#dropdown,#textarea {
     width: 100%;
 }
 
@@ -26,10 +26,8 @@ form {
 
 body {
     background-color: violet;
-    background-repeat: repeat;
-    background-size: cover;
 }
 
-select {
+select, #submit {
     color: black;
 }
