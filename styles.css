@@ -1,33 +1,39 @@
 :root {
-    --color-white: #f3f3f3;
-    --color-darkblue: #1b1b32;
-    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
-    --color-green: #37af65;
+  --color-white: #f3f3f3;
+  --color-darkblue: #1b1b32;
+  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-green: #37af65;
 }
 
 * {
-    color: white;
+  color: white;
 }
 
-#title, #description {
-    text-align: center;
+#title,
+#description {
+  text-align: center;
 }
 
-#name,#email,#number,#dropdown,#textarea {
-    width: 100%;
+#name,
+#email,
+#number,
+#dropdown,
+#textarea {
+  width: 100%;
 }
 
 form {
-    background-color: var(--color-darkblue-alpha);
-    min-width: 20%;
-    max-width: 30%;
-    margin: auto;
+  background-color: var(--color-darkblue-alpha);
+  min-width: 20%;
+  max-width: 30%;
+  margin: auto;
 }
 
 body {
-    background-color: violet;
+  background-color: violet;
 }
 
-select, #submit {
-    color: black;
+select,
+#submit {
+  color: black;
 }
